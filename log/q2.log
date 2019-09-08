@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2019-09-08T14:03:33.127">
+  <info>
+    Q2 started, deployDir=D:\Projects\code-examples\jpos\ISO8583gateway\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-08T14:03:33.594" lifespan="457ms">
+  <version>
+    jPOS 2.1.0 master/6145612 (2017-05-27 12:39:12 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2019-09-08T14:03:33.601" lifespan="5ms">
+  <info>
+    deploy: D:\Projects\code-examples\jpos\ISO8583gateway\deploy\11_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-08T14:03:33.611" lifespan="10ms">
+  <info>
+    deploy: D:\Projects\code-examples\jpos\ISO8583gateway\deploy\22_txmngr.xml
+  </info>
+</log>
+<log realm="server-8005.server" at="2019-09-08T14:03:33.634">
+  <iso-server>
+    listening on port 8005
+  </iso-server>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2019-09-08T14:03:33.635">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2019-09-08T14:03:33.635">
+  <info>
+    start Thread[Thread-11,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2019-09-08T14:03:33.635">
+  <info>
+    start Thread[Thread-10,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2019-09-08T14:03:33.635">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2019-09-08T14:03:33.635">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2019-09-08T14:05:48.125">
+  <info>
+    Q2 started, deployDir=D:\Projects\code-examples\jpos\ISO8583gateway\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-08T14:05:48.575" lifespan="438ms">
+  <version>
+    jPOS 2.1.0 master/6145612 (2017-05-27 12:39:12 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2019-09-08T14:05:48.619" lifespan="42ms">
+  <info>
+    deploy: D:\Projects\code-examples\jpos\ISO8583gateway\deploy\11_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-08T14:05:48.629" lifespan="9ms">
+  <info>
+    deploy: D:\Projects\code-examples\jpos\ISO8583gateway\deploy\22_txmngr.xml
+  </info>
+</log>
+<log realm="server-8005.server" at="2019-09-08T14:05:48.655">
+  <iso-server>
+    listening on port 8005
+  </iso-server>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2019-09-08T14:05:48.656">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2019-09-08T14:05:48.656">
+  <info>
+    start Thread[Thread-11,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2019-09-08T14:05:48.656">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2019-09-08T14:05:48.656">
+  <info>
+    start Thread[Thread-10,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2019-09-08T14:05:48.657" lifespan="1ms">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="server-8005.server.session/127.0.0.1:64244" at="2019-09-08T14:06:37.565">
+  <session-start/>
+</log>
+<log realm="server-8005/127.0.0.1:64244" at="2019-09-08T14:06:37.568" lifespan="3ms">
+  <receive>
+    <iso-exception>
+      org.jpos.iso.IFA_LLLCHAR: Problem unpacking field 36 (org.jpos.iso.ISOException: Field length 493 too long. Max: 104) unpacking field=36, consumed=79
+      org.jpos.iso.ISOException: org.jpos.iso.IFA_LLLCHAR: Problem unpacking field 36 (org.jpos.iso.ISOException: Field length 493 too long. Max: 104) unpacking field=36, consumed=79
+	at org.jpos.iso.ISOBasePackager.unpack(ISOBasePackager.java:340)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:968)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:738)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+    --- data ---
+    0000  49 53 4F 35 31 30 30 30  30 30 30 31 32 30 30 F2  ISO510000001200.
+0010  34 C5 01 A8 E1 80 00 00  00 00 00 04 00 00 00 31  4..............1
+0020  36 31 32 33 34 35 36 39  38 34 32 35 36 39 38 37  6123456984256987
+0030  34 30 30 30 30 30 30 30  30 30 30 30 30 32 37 30  4000000000000270
+0040  30 30 30 30 39 30 38 30  32 30 35 31 37 38 39 34  0000908020517894
+0050  39 33 33 31 39 30 39 30  38 30 32 30 35 31 37 30  9331909080205170
+0060  30 31 31 30 39 30 38 35  33 31 33 32 31 30 31 30  0110908531321010
+0070  31 32 31 33 31 34 34 32  30 30 30 36 36 30 33 37  1213144200066037
+0080  39 39 30 36 36 32 38 30  32 33 33 37 31 32 33 34  9906628023371234
+0090  35 36 39 38 34 32 35 36  39 38 37 34 3D 30 30 31  569842569874=001
+00a0  31 35 30 36 31 34 39 38  39 31 37 39 30 30 30 30  1506149891790000
+00b0  31 30 30 30 30 30 30 31  38 32 38 36 39 36 37 37  1000000182869677
+00c0  37 37 37 37 37 20 20 20  37 37 37 37 37 37 37 37  77777   77777777
+00d0  37 36 30 30 34 30 20 20  20 20 20 20 20 20 20 20  760040          
+00e0  20 20 20 20 20 20 20 20  20 20 20 20 20 20 20 20                  
+00f0  20 20 20 3F 3F 3F 3F 3F  20 3F 3F 3F 3F 3F 30 33     ????? ?????03
+0100  32 50 31 33 30 30 36 38  39 34 39 33 33 44 30 31  2P13006894933D01
+0110  30 31 34 32 30 31 39 30  39 30 38 30 32 30 35 31  0142019090802051
+0120  37 33 36 34 31 32 33 31  30 30 31 31 38 35 37 36  7364123100118576
+0130  31 35                                             15
+
+  </receive>
+</log>
+<log realm="server-8005.server.session/127.0.0.1:64244" at="2019-09-08T14:06:37.570">
+  <session-error>
+    <iso-exception>
+      org.jpos.iso.IFA_LLLCHAR: Problem unpacking field 36 (org.jpos.iso.ISOException: Field length 493 too long. Max: 104) unpacking field=36, consumed=79
+      org.jpos.iso.ISOException: org.jpos.iso.IFA_LLLCHAR: Problem unpacking field 36 (org.jpos.iso.ISOException: Field length 493 too long. Max: 104) unpacking field=36, consumed=79
+	at org.jpos.iso.ISOBasePackager.unpack(ISOBasePackager.java:340)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:968)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:738)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+  </session-error>
+</log>
+<log realm="server-8005.server.session/127.0.0.1:64244" at="2019-09-08T14:06:37.570">
+  <session-end/>
+</log>
+<log realm="server-8005.server.session/127.0.0.1:64337" at="2019-09-08T14:07:39.902">
+  <session-start/>
+</log>
+<log realm="server-8005/127.0.0.1:64337" at="2019-09-08T14:07:39.903" lifespan="1ms">
+  <receive>
+    <iso-exception>
+      org.jpos.iso.IFA_LLLCHAR: Problem unpacking field 36 (org.jpos.iso.ISOException: Field length 493 too long. Max: 104) unpacking field=36, consumed=79
+      org.jpos.iso.ISOException: org.jpos.iso.IFA_LLLCHAR: Problem unpacking field 36 (org.jpos.iso.ISOException: Field length 493 too long. Max: 104) unpacking field=36, consumed=79
+	at org.jpos.iso.ISOBasePackager.unpack(ISOBasePackager.java:340)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:968)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:738)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+    --- data ---
+    0000  49 53 4F 35 31 30 30 30  30 30 30 31 32 32 30 F2  ISO510000001220.
+0010  34 C5 01 A8 E1 81 00 00  00 00 00 04 00 00 00 31  4..............1
+0020  36 31 32 33 34 35 36 39  38 34 32 35 36 39 38 37  6123456984256987
+0030  34 39 30 30 30 30 30 30  30 30 30 30 30 32 37 30  4900000000000270
+0040  30 30 30 30 39 30 38 30  32 30 35 31 37 38 39 34  0000908020517894
+0050  39 33 33 31 39 30 39 30  38 30 32 30 35 31 37 30  9331909080205170
+0060  30 31 31 30 39 30 38 35  33 31 33 32 31 30 31 30  0110908531321010
+0070  31 32 31 33 31 34 34 32  39 30 30 36 36 30 33 37  1213144290066037
+0080  39 39 30 36 36 32 38 30  32 33 33 37 31 32 33 34  9906628023371234
+0090  35 36 39 38 34 32 35 36  39 38 37 34 3D 30 30 31  569842569874=001
+00a0  31 35 30 36 31 34 39 38  39 31 37 39 30 30 30 30  1506149891790000
+00b0  31 30 30 30 30 30 30 31  38 32 38 36 39 36 37 37  1000000182869677
+00c0  37 37 37 37 37 20 20 20  37 37 37 37 37 37 37 37  77777   77777777
+00d0  37 36 30 30 34 30 20 20  20 20 20 20 20 20 20 20  760040          
+00e0  20 20 20 20 20 20 20 20  20 20 20 20 20 20 20 20                  
+00f0  20 20 20 3F 3F 3F 3F 3F  20 3F 3F 3F 3F 3F 30 33     ????? ?????03
+0100  32 50 31 33 30 30 36 38  39 34 39 33 33 44 30 31  2P13006894933D01
+0110  30 31 34 32 30 31 39 30  39 30 38 30 32 30 35 31  0142019090802051
+0120  37 33 36 34 32 38 31 32  30 30 38 39 34 39 33 33  7364281200894933
+0130  31 39 30 39 30 38 30 32  30 35 31 37 36 30 33 37  1909080205176037
+0140  39 39 31 32 33 31 30 30  31 31 38 35 37 36 31 35  9912310011857615
+
+  </receive>
+</log>
+<log realm="server-8005.server.session/127.0.0.1:64337" at="2019-09-08T14:07:39.903">
+  <session-error>
+    <iso-exception>
+      org.jpos.iso.IFA_LLLCHAR: Problem unpacking field 36 (org.jpos.iso.ISOException: Field length 493 too long. Max: 104) unpacking field=36, consumed=79
+      org.jpos.iso.ISOException: org.jpos.iso.IFA_LLLCHAR: Problem unpacking field 36 (org.jpos.iso.ISOException: Field length 493 too long. Max: 104) unpacking field=36, consumed=79
+	at org.jpos.iso.ISOBasePackager.unpack(ISOBasePackager.java:340)
+	at org.jpos.iso.ISOMsg.unpack(ISOMsg.java:468)
+	at org.jpos.iso.BaseChannel.unpack(BaseChannel.java:968)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:738)
+	at org.jpos.iso.ISOServer$Session.run(ISOServer.java:344)
+	at org.jpos.util.ThreadPool$PooledThread.run(ThreadPool.java:76)
+    </iso-exception>
+  </session-error>
+</log>
+<log realm="server-8005.server.session/127.0.0.1:64337" at="2019-09-08T14:07:39.904">
+  <session-end/>
+</log>

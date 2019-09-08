@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server class="org.jpos.q2.iso.QServer" logger="Q2"
+        name="server-8006" realm="server-8006">
+    <attr name="port" type="java.lang.Integer">8006</attr>
+    <channel class="org.jpos.iso.channel.ASCIIChannel"
+             packager="ir.navaco.mcb.jposgateway.packager.ISO93AShetabPackager"
+             type="server"
+             logger="Q2"
+             realm="server-8006">
+        <property name="timeout" value="7000"/>
+    </channel>
+    <request-listener class="ir.navaco.mcb.jposgateway.server.MainJPOSRequestListenerShetab"
+                      logger="Q2"
+                      realm="server-8006">
+        <property name="space" value="transient:default:shetab" />
+        <property name="queue" value="mainQueueShetab" />
+        <property name="spaceTimeout" value="60000" />
+    </request-listener>
+
+</server>

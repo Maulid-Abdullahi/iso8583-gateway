@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<txnmgr name="test" class="org.jpos.transaction.TransactionManager" logger="Q2">
+    <property name="space" value="transient:default" />
+    <property name="queue" value="mainQueue" />
+    <property name="sessions" value="5" />
+    <property name="debug" value="true" />
+
+    <!--<participant class=".............." logger="Q2" />-->
+
+</txnmgr>

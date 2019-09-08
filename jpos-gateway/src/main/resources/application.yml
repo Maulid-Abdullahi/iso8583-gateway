@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: ISO8583-Standard
+server:
+  port: 8090
