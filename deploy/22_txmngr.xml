@@ -5,6 +5,7 @@
     <property name="sessions" value="5" />
     <property name="debug" value="true" />
 
-    <!--<participant class=".............." logger="Q2" />-->
+    <!-- This participate has detection role -->
+    <participant class="ir.navaco.mcb.jposgateway.participates.DetectorParticipate" logger="Q2" />
 
 </txnmgr>
