@@ -11,3 +11,8 @@ eureka:
 logging:
   file: /log
 
+navaco:
+  config:
+    kafka:
+      consumer:
+        bootstrap-server: 10.12.47.125:9092

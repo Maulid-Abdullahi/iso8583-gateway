@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "navaco.config.kafka.consumer.bootstrap-server",
+      "type": "java.lang.String",
+      "description": "this configuration is according to desired kafka server."
+    }
+  ]
+}
