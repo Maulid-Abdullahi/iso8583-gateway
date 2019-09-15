@@ -3,6 +3,7 @@ package ir.navaco.mcb.jposgateway.participates;
 import com.google.gson.GsonBuilder;
 import ir.navaco.mcb.jposgateway.enums.MessageType;
 import ir.navaco.mcb.jposgateway.kafka.KafkaHandler;
+import ir.navaco.mcb.jposgateway.kafka.KafkaHandlerMessage1100;
 import ir.navaco.mcb.jposgateway.parser.pooya.Message1100;
 import ir.navaco.mcb.jposgateway.parser.pooya.UnpackIsoMessage;
 import ir.navaco.mcb.jposgateway.server.ContextConstant;
@@ -25,6 +26,9 @@ public class DetectorParticipate implements TransactionParticipant {
     @Autowired
     private UnpackIsoMessage unpackIsoMessage;
 
+    @Autowired
+    private KafkaHandlerMessage1100 kafkaHandlerMessage1100;
+
     private static final String TAG = "DetectorParticipate";
     private Logger logger = LoggerFactory.getLogger(TAG);
 
@@ -39,16 +43,13 @@ public class DetectorParticipate implements TransactionParticipant {
             case MTI_1100: putMessage1100ToQueue(isoMsg);
         }
 
-        return 0;
+        return PREPARED;
     }
 
     private void putMessage1100ToQueue(ISOMsg isoMsg) {
         try {
             Message1100 message1100 = new Message1100(isoMsg);
-            KafkaHandler kafkaHandler = ((object, queueConstant) -> {
-                String jsonString = new GsonBuilder().create().toJson(object, object.getClass());
-
-            });
+            kafkaHandlerMessage1100.putObjectToQueue(message1100);
         } catch (ParseException e) {
             logger.error(e.getMessage());
         }

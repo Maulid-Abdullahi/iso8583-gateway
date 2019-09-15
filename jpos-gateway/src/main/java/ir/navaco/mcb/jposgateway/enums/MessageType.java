@@ -11,7 +11,6 @@ import java.util.Arrays;
  * @author a.khatamidoost
  * */
 
-@Data
 public enum MessageType {
 
     /**
