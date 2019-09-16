@@ -6,7 +6,8 @@
              packager="ir.navaco.mcb.jposgateway.packager.ISO93APooyaPackager"
              type="server"
              logger="Q2"
-             realm="server-8005">
+             realm="server-8005"
+             header="ISO51000000">
         <property name="timeout" value="7000"/>
     </channel>
     <request-listener class="ir.navaco.mcb.jposgateway.server.MainJPOSRequestListener"

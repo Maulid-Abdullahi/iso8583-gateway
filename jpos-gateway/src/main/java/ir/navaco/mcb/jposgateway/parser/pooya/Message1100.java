@@ -36,7 +36,7 @@ public class Message1100 {
         this.TXReceiveDateTime = ParserHelper.parseDate(isoMsg.getString(17), "MMdd");
         this.posInfo = isoMsg.getString(22);
         this.functionCode = FunctionCodeType.findByCode(Integer.parseInt(isoMsg.getString(24)));
-        this.acquireBusinessType = Short.parseShort(isoMsg.getString(26));
+//        this.acquireBusinessType = Short.parseShort(isoMsg.getString(26));
         this.acquireInstituteCode = Long.parseLong(isoMsg.getString(32));
         this.senderInstituteCode = Long.parseLong(isoMsg.getString(33));
         this.TXRefRecoverNo = isoMsg.getString(37);

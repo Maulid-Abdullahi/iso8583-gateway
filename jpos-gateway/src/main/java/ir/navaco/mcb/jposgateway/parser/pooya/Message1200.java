@@ -1,8 +1,11 @@
 package ir.navaco.mcb.jposgateway.parser.pooya;
 
+import lombok.Data;
+
 import java.math.BigDecimal;
 import java.util.Date;
 
+@Data
 public class Message1200 {
     private Long accountNo; //field 2
     private String RawTXProcessCode;
@@ -26,4 +29,8 @@ public class Message1200 {
     private String dataRecord;//field 72 (Pooya Transactions)
     private String accountIdentification; //field 102 (Pooya Transactions)
     private String pooyaTxReserved; //field 113 (Pooya Transactions)
+
+
+
+
 }

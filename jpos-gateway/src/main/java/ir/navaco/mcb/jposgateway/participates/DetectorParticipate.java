@@ -1,8 +1,6 @@
 package ir.navaco.mcb.jposgateway.participates;
 
-import com.google.gson.GsonBuilder;
 import ir.navaco.mcb.jposgateway.enums.MessageType;
-import ir.navaco.mcb.jposgateway.kafka.KafkaHandler;
 import ir.navaco.mcb.jposgateway.kafka.KafkaHandlerMessage1100;
 import ir.navaco.mcb.jposgateway.parser.pooya.Message1100;
 import ir.navaco.mcb.jposgateway.parser.pooya.UnpackIsoMessage;
@@ -13,21 +11,28 @@ import org.jpos.transaction.TransactionParticipant;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-import javax.print.attribute.standard.MediaSize;
 import java.io.Serializable;
 import java.text.ParseException;
 
 /**
  * @author a.khatamidoost
  */
+@Component
 public class DetectorParticipate implements TransactionParticipant {
 
-    @Autowired
-    private UnpackIsoMessage unpackIsoMessage;
+//    @Autowired
+    private UnpackIsoMessage unpackIsoMessage;// = new UnpackIsoMessage();
+
+//    @Autowired
+    private KafkaHandlerMessage1100 kafkaHandlerMessage1100;// = new KafkaHandlerMessage1100();
 
     @Autowired
-    private KafkaHandlerMessage1100 kafkaHandlerMessage1100;
+    public DetectorParticipate(UnpackIsoMessage unpackIsoMessage, KafkaHandlerMessage1100 kafkaHandlerMessage1100){
+        this.unpackIsoMessage = unpackIsoMessage;
+        this.kafkaHandlerMessage1100 = kafkaHandlerMessage1100;
+    }
 
     private static final String TAG = "DetectorParticipate";
     private Logger logger = LoggerFactory.getLogger(TAG);
