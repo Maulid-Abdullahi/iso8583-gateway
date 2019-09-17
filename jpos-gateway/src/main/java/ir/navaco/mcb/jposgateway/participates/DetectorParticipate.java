@@ -1,7 +1,7 @@
 package ir.navaco.mcb.jposgateway.participates;
 
 import ir.navaco.mcb.jposgateway.enums.MessageType;
-import ir.navaco.mcb.jposgateway.kafka.KafkaHandlerMessage1100;
+import ir.navaco.mcb.jposgateway.kafka.KafkaHandlerImpl;
 import ir.navaco.mcb.jposgateway.parser.pooya.Message1100;
 import ir.navaco.mcb.jposgateway.parser.pooya.UnpackIsoMessage;
 import ir.navaco.mcb.jposgateway.server.ContextConstant;
@@ -19,20 +19,11 @@ import java.text.ParseException;
 /**
  * @author a.khatamidoost
  */
-@Component
 public class DetectorParticipate implements TransactionParticipant {
 
-//    @Autowired
-    private UnpackIsoMessage unpackIsoMessage;// = new UnpackIsoMessage();
+    private UnpackIsoMessage unpackIsoMessage = new UnpackIsoMessage();
 
-//    @Autowired
-    private KafkaHandlerMessage1100 kafkaHandlerMessage1100;// = new KafkaHandlerMessage1100();
-
-    @Autowired
-    public DetectorParticipate(UnpackIsoMessage unpackIsoMessage, KafkaHandlerMessage1100 kafkaHandlerMessage1100){
-        this.unpackIsoMessage = unpackIsoMessage;
-        this.kafkaHandlerMessage1100 = kafkaHandlerMessage1100;
-    }
+    private KafkaHandlerImpl kafkaHandler = new KafkaHandlerImpl();
 
     private static final String TAG = "DetectorParticipate";
     private Logger logger = LoggerFactory.getLogger(TAG);
@@ -54,7 +45,7 @@ public class DetectorParticipate implements TransactionParticipant {
     private void putMessage1100ToQueue(ISOMsg isoMsg) {
         try {
             Message1100 message1100 = new Message1100(isoMsg);
-            kafkaHandlerMessage1100.putObjectToQueue(message1100);
+            kafkaHandler.putObjectToQueue(message1100);
         } catch (ParseException e) {
             logger.error(e.getMessage());
         }

@@ -1,5 +1,8 @@
 package ir.navaco.mcb.jposgateway.enums;
 
+import lombok.Data;
+
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -7,7 +10,7 @@ import java.util.Arrays;
  */
 public enum QueueConstant {
 
-    MS1100(1, 1100, "NAVACO.MCB.1100.RECIEVE");
+    MS1100(1, 1100, "MCB.NAVACO.JPOS.M1100");
 
     private Integer id;
     private Integer code;
@@ -24,5 +27,9 @@ public enum QueueConstant {
                 .filter(queueConstant -> queueConstant.code.equals(code))
                 .findFirst()
                 .get();
+    }
+
+    public static String getQueueName(Integer code){
+        return Arrays.stream(values()).filter(queueConstant -> queueConstant.code == code).findFirst().get().queueName;
     }
 }
